@@ -1,0 +1,207 @@
+*{
+    margin:0;
+    padding: 0;
+    /* outline: dotted red 1px; */
+}
+#container{
+    width: 970px;
+    min-height: 850px;
+    background-color: #062134;
+    margin: auto;
+}
+#header{
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+#header h1{
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 32px;
+}
+#whitefont{
+    color: white;
+}
+#bluefont{
+    color: #1a97e5;
+}
+#navBar{
+    margin: auto;
+    border-radius: 12px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#navBar ul{
+    display: flex;
+    justify-content: center;
+}
+#navBar ul li{
+    list-style: none;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+#navBar ul li a{
+    color: #f8fafc;
+    font-size: 20px;
+    text-decoration: none;
+}
+#main{
+    width: 930px;
+    min-height: 830px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+#main > img{
+    width: 880px;
+    height: 400px;
+    margin: auto;
+    margin-top: 15px;
+}
+#tools{
+    width: 880px;
+    min-height: 250px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.toolbox{
+    width: 280px;
+    min-height: 280px;
+    margin-top:15px;
+    background-color: #1468a8;
+    display: flex;
+    flex-wrap: wrap;
+}
+.toolimg{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.toolbox h1{
+    margin-top: 20px;
+    margin-left: -11px;
+    height: 45px;
+    width: 200px;
+    color: white;
+    margin-top: 20px;
+}
+.toolbox p{
+    color: white;
+    margin: 10px;
+    font-size: 12px;
+    /* margin-top: 3px; */
+    height: 73px;
+}
+#review{
+    width: 880px;
+    min-height: 250px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.reviewBox{
+    width: 280px;
+    min-height: 280px;
+    margin-top: 15px;
+}
+#footer{
+    background-color: #daedff;
+    width: 930px;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    border-top: #062134 3px solid;
+}
+#footernavBar{
+    margin: auto;
+    border-radius: 12px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#footernavBar ul{
+    display: flex;
+    justify-content: center;
+}
+#footernavBar ul li{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+#footernavBar ul li a{
+    color: navy;
+    font-size: 15px;
+    text-decoration: none;
+}
+.toolbox button{
+    background-color: #1990db;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 30px 0px 0px 20px;
+    border-radius: 8px;
+    height: 38px;
+    width: 120px;
+}
+.reviewBox h1{
+    font-size: 19px;
+    height: 25px;
+    transform: scaleY(1.9);
+    margin-top: 25px;
+}
+.reviewBox #building{
+    width: 270px;
+    height: 180px;
+    margin-top: 20px;
+    margin-left: 4px;
+}
+.reviewBox .paragraphs{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.reviewBox #goal{
+    margin-bottom: 10px;
+    margin-top: 70px;
+}
+.reviewBox #consultants{
+    margin-bottom: 10px;
+}
+.reviewBox #check{
+    margin-bottom: 10px;
+}
+.reviewBox a {
+    text-decoration: none;
+    color: blue;
+}
+#blueBox{
+    width:250px;
+    height: 145px;
+    background-color: #daedff;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+#blueBox p{
+    margin-left: 10px;
+    margin-top: 40px;
+    font-style: italic;
+    font-size: 12px;
+}
+#classMan{
+    margin-top: 15px;
+}

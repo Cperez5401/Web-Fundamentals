@@ -1,0 +1,196 @@
+*{
+    margin:0;
+    padding: 0;
+}
+#container{
+    width: 970px;
+    min-height: 650px;
+    background-color:#245076;
+    margin: auto;
+}
+#header{
+    min-height: 110px ;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#header h4{
+    margin-left: 70px;
+    margin-bottom: 5px;
+}
+#header h4 a{
+    color: yellow;
+    font-size: 12px;
+}
+#searchBox{
+    width: 250px;
+    height:50px;
+    background-color:#444444;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#searchBox input{
+    height: 25px;
+    width: 150px;
+}
+#searchBox button{
+    height: 30px;
+    width: 35px;
+    background-color: #245076;
+    border-radius: 8px;
+    color: white;
+    margin-left: 3px;
+}
+#header img{
+    width: 400px;
+    margin-left: 15px;
+}
+/* ^end of header css^ */
+#topNav{
+    min-height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#navBar{
+    background-color: #3e7aad;
+    width: 920px;
+    height: 50px;
+    margin: auto;
+    border-radius: 12px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#navBar ul{
+    display: flex;
+    justify-content: center;
+}
+#navBar ul li{
+    list-style: none;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+#navBar ul li a{
+    color:#f8fafc; 
+    font-size: 24px;
+    text-decoration: none;
+}
+/* ^End of nav bar css */
+#mainBody{
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#mainBody > ul{
+    margin-left: 15px;
+    width: 150px;
+    margin-top: 25px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+#mainBody > ul a{
+    color: white;
+}
+#mainBody > ul li{
+    margin-top: 10px;
+}
+#summary{
+    width: 570px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#topP{
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+#bottomP{
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+#summary ul{
+    color: yellow;
+    text-align: center;
+    list-style: none;
+    font-size: 17px;
+    font-style: italic;
+}
+#summary ul li{
+    margin-top: 10px;
+}
+#howTo{
+    width: 100%;
+    min-height: 240px;
+    background-color: white;
+    border-top: black solid 3px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#gettingStarted{
+    width: 400px;
+    min-height: 240px; 
+    border-top:#73a7d5 solid 5px;
+    margin-top: 15px;
+}
+#gettingStarted h1{
+    text-align: center;
+}
+#gettingStarted p{
+    text-align: center;
+
+}
+#gettingStarted ul{
+    text-align: center;
+    margin-left: 75px;
+    width: 250px;
+    color:#73a7d5;
+}
+#gettingStarted ul li::marker{
+    color: black;
+}
+#applications{
+    width: 400px;
+    min-height: 240px;
+    border-top:#73a7d5 solid 5px;
+    margin-top: 15px;
+}
+#applications h1{
+    text-align: center;
+}
+#applications p{
+    text-align: center;
+
+}
+#applications ul{
+    text-align: center;
+    margin-left: 75px;
+    width: 250px;
+    color:#73a7d5;
+}
+#applications ul li::marker{
+    color: black;
+}
+#footer{
+    width: 100%;
+    min-height: 75px;
+    background-color:#245076;
+    display: flex;
+    justify-content: space-evenly;
+}
+#footer a{
+    color: white;
+    text-decoration: none;
+    opacity:0.5 ;
+    margin-top: 25px;
+}
